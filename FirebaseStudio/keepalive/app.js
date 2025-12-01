@@ -3,11 +3,11 @@ const axios = require('axios')
 
 // ============================================================
 // Remote
-const targetUrl = 'https://8080-firebase-us-1747877258236.cluster-2xfkbshw5rfguuk5qupw267afs.cloudworkstations.dev'
-const ffOpenUrl = 'https://idx.google.com/us-51072006'
+const targetUrl = 'https://端口-firebase-项目名-xxx.cloudworkstations.dev'
+const ffOpenUrl = 'https://idx.google.com/项目名'
 // Local
 const projectDir = '/home/user/tw'
-const vncPassword = 'vevc.firefox.VNC.pwd'
+const vncPassword = '自定义登录密码'
 // ============================================================
 
 let lock = false
