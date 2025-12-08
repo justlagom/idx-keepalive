@@ -8,21 +8,22 @@
       "port": 8080,
       "protocol": "vless",
       "settings": {
-        "decryption": "none",
         "clients": [
           {
-            "email": "idx-xhttp",
-            "flow": "",
-            "id": "2584b733-9095-4bec-a7d5-62b473540f7a"
+            "flow": "xtls-rprx-vision",
+            "id": "自定义uuid"
           }
-        ]
+        ],
+        "decryption": "mlkem768x25519plus.native.600s.-FOjuOsx5U7P0gmVgs_ErqezQYmuQa6s7HQQL3biA0g",
+        "encryption": "mlkem768x25519plus.native.0rtt.JtaCe-JndzhO-L7B-rbQU-PETl4WNh5Mw5yQ6oDR6jQ",
+        "selectedAuth": "X25519, not Post-Quantum"
       },
       "streamSettings": {
         "network": "xhttp",
         "xhttpSettings": {
           "host": "",
           "mode": "auto",
-          "path": "/"
+          "path": "自定义path"
         }
       }
     },
@@ -31,21 +32,22 @@
       "port": 8001,
       "protocol": "vless",
       "settings": {
-        "decryption": "none",
         "clients": [
           {
-            "email": "idx-ws",
-            "flow": "",
-            "id": "2584b733-9095-4bec-a7d5-62b473540f7a"
+            "flow": "xtls-rprx-vision",
+            "id": "自定义uuid"
           }
-        ]
+        ],
+        "decryption": "mlkem768x25519plus.native.600s.-FOjuOsx5U7P0gmVgs_ErqezQYmuQa6s7HQQL3biA0g",
+        "encryption": "mlkem768x25519plus.native.0rtt.JtaCe-JndzhO-L7B-rbQU-PETl4WNh5Mw5yQ6oDR6jQ",
+        "selectedAuth": "X25519, not Post-Quantum"
       },
       "streamSettings": {
         "network": "ws",
         "security": "none",
         "wsSettings": {
           "host": "",
-          "path": "/"
+          "path": "自定义path"
         }
       }
     }
